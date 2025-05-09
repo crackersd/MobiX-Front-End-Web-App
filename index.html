@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MobiX</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <div class="nav-bar">
+    <div class="logo">MobiX</div>
+    <ul class="nav-links">
+      <div class="menu-close-icon">
+        <div>
+          <i class="fa-solid fa-xmark"></i>
+        </div>
+      </div>
+      <li onclick="location.href='#home'" class="home nevbtn"><a>Home</a></li>
+      <li onclick="location.href='#about'" class="about nevbtn"><a>About Us</a></li>
+      <li onclick="location.href='#products'" class="products nevbtn"><a>Products</a></li>
+      <li onclick="location.href='#contacts'" class="contacts nevbtn"><a>Contact</a></li>
+      <li onclick="location.href='#'" class="temp-order"><a>Order Now</a></li>
+    </ul>
+
+    <div class="butn" onclick="location.href='tel:+94234567890'" title="Call Us">
+      <a href="#cart">Order Now</a>
+    </div>
+
+    <div class="menu-icon">
+      <i class="fas fa-bars"></i>
+    </div>
+
+  </div>
+
+  <div class="scroll-container">
+    <div class="section hero-section" id="home">
+      <div class="cover">
+        <div>
+          <h1>Welcome to MobiX</h1>
+          <p>Explore our wide range of top-brand smartphones, accessories, and unbeatable deals. Whether you're upgrading or switching, we've got the perfect phone for you, backed by expert advice and fast service.</p><br>
+          <a href="#products" class="btn">View all the products</a>
+        </div>
+
+      </div>
+      <div class="cover-img">
+        <img src="/assets/phones.png" alt="" srcset="">
+      </div>
+    </div>
+
+    <div class="section about-section" id="about">
+      <div class="cover">
+        <div class="cover-img">
+          <img src="/assets/repair.jpg" alt="" srcset="">
+        </div>
+        <div class="about-text">
+          <div>
+            <h1>About Us</h1>
+            <p>At MobiX, we specialize in fast, reliable mobile phone repairs and offer a wide selection of quality smartphones and accessories for sale. Whether you’ve cracked your screen, need a battery replacement, or want to upgrade to a new device, our experienced technicians and friendly staff are here to help. We take pride in our honest service, affordable prices, and commitment to customer satisfaction. Visit us today and experience hassle-free mobile solutions all in one place.</p><br>
+            <a href="https://facebook.com" class="btn">Visit Our Facebook Page</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section products-section" id="products">
+      <div>
+        <h1>Our Main Products</h1>
+        <div class="cover">
+          <div class="container" id="containerImg">
+            <div class="card">
+              <img src="/assets/phone1.png" alt="Product 1">
+              <h2>Smart Phones</h2>
+            </div>
+            <div class="card">
+              <img src="/assets/phone2.jpg" alt="Product 2">
+              <h2>Smart Watch</h2>
+            </div>
+            <div class="card">
+              <img src="/assets/phone3.webp" alt="Product 3">
+              <h2>Speakers</h2>
+            </div>
+            <div class="card">
+              <img src="/assets/phone4.webp" alt="Product 3">
+              <h2>Phone Chargers</h2>
+            </div>            
+            <div class="card">
+              <img src="/assets/phone5.webp" alt="Product 3">
+              <h2>Phone Cases</h2>
+            </div>         
+            <div class="card">
+              <img src="/assets/phone6.jpg" alt="Product 3">
+              <h2>Cameras</h2>
+            </div>
+          </div>
+        </div>
+        <div class="backward"><i class="fa-solid fa-backward-step"></i></div>
+        <div class="forward"><i class="fa-solid fa-forward-step"></i></div>
+
+      </div>
+    </div>
+
+    <div class="section contact-section" id="contacts">
+      <div class="cover">
+        <div class="description">
+          <h1>Contact Us</h1>
+          <p>If you have any questions or need assistance, feel free to reach out to us. We're here to help!</p><br>
+          <a href="#home" class="btn">Back to Home</a>
+        </div>
+
+        <div class="contact-info">
+          <div>
+            <div class="card-cover">
+              <div class="info" onclick="location.href='https:/\/www.google.com/maps/@50.501045,4.476674,7z'">
+                <i class="fa-solid fa-location-dot"></i>
+                <p>123 MobiX Street, Tech City</p>
+              </div>
+              <div class="info" onclick="location.href='tel:+94234567890'">
+                <i class="fa-solid fa-phone-volume"></i>
+                <p>+94 234 567 890</p>
+              </div>
+              <div class="info" onclick="location.href='mailto:mobix@gmail.com'">
+                <i class="fa-solid fa-envelope"></i>
+                <p>mobix@gmail.com</p>
+              </div>
+              <div class="info" onclick="location.href='https:/\/facebook.com'">
+                <i class="fa-brands fa-facebook"></i>
+                <p>Follow Us</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="footer">2025 © MobiX</div>
+    </div>
+
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
